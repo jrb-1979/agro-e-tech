@@ -7,12 +7,15 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <nav class="navbar bg-dark border-bottom border-body" data-bs-theme="dark">
-        <h1>Energia</h1>
-        <h3>Início</h3>
-        <h3>Impactos</h3>
-        <h3>Conclusão</h3>
-    </nav>
+  <nav class="navbar bg-dark border-bottom border-body" data-bs-theme="dark">
+    <div class="container-fluid">
+      <h1>Energia</h1>
+      <form class="d-flex" role="pesquisa">
+        <input class="form-control me-2" type="pesquisa" placeholder="pesquisa" aria-label="pesquisa"/>
+        <button class="btn btn-outline-success" type="submit">pesquisar</button>
+      </form>
+    </div>
+  </nav>
     <img src="/img/blog_aldosolar_Acoes-sustentaveis-na-geracao-de-energia-eletrica-1.webp" alt="Foto energia sustentável.">   
          <h2>Energia Não Renovável</h2>
         <p>Energias Não Renováveis são aquelas que utilizam formas de combustíveis que não se renovam facilmente na natureza, ou seja, são finitos e esgotáveis, podendo levar até milhões de anos para se renovar. </p> 
@@ -28,88 +31,103 @@
             <p><a href="#Energia Solar">Energia Solar</a></p>
             <p><a href="#Energia Eólica">Energia Eólica</a></p>
             <p><a href="#Energia Biomassa">Energia Biomassa</a></p>
-            <p><a href="#Energia Pisos Pavagen">Energia Pisos Pavagen</a></p>
         </nav>
     </header>
 
     <main>
         <section id="Energia Termelétrica" class="conteudo">
-            <h4>Energia Termelétrica</h4>
-            <ul>
-                <p>Queimam combustíveis como carvão, óleo e gás natural.</p>
-                <p>A queima de combustíveis fósseis libera gases poluentes na atmosfera. </p>
-                <p>Contribui para o efeito estufa e aquecimento global</p>
-                <p>Redução da qualidadade do ar</p>
-                <p>Agravamento de problemas de saúde</p>
-                <p>Impacto na economia de comunidades locais</p>
-            </ul>
+            <div class="container-l">
+                <img src="img/WELP-BLOG-11.png" alt="imagem hidreletrica" class="imagem-l">
+                <div class="text-l">
+                <h4>Energia Termelétrica</h4>
+                <ul>
+                    <p>Queimam combustíveis como carvão, óleo e gás natural.</p>
+                    <p>A queima de combustíveis fósseis libera gases poluentes na atmosfera. </p>
+                    <p>Contribui para o efeito estufa e aquecimento global</p>
+                    <p>Redução da qualidadade do ar</p>
+                    <p>Agravamento de problemas de saúde</p>
+                    <p>Impacto na economia de comunidades locais</p>
+                </ul>
+                </div>
+            </div>
         </section>
 
         <section id="Energia Nuclear" class="conteudo">
-            <h4>Energia Nuclear</h4>
-            <ul>
-                <p>A energia nuclear depende da extração de urânio, um recurso não renovável</p>
-                <p>Gera resíduos radioativos</p>
-                <p>Vazamentos de material radioativo, pode ter consequências devastadoras para o ambiente</p>
-                <p>As usinas nucleares exigem um investimento inicial muito alto</p>
-                <p>Risco a segurança da população</p>
-            </ul>
+            <div class="container-r">
+                <img src="img/energia-nuclear.webp" alt="imagem hidreletrica" class="imagem-r">
+                <div class="text-r">
+                <h4>Energia Nuclear</h4>
+                <ul>
+                    <p>A energia nuclear depende da extração de urânio, um recurso não renovável</p>
+                    <p>Gera resíduos radioativos</p>
+                    <p>Vazamentos de material radioativo, pode ter consequências devastadoras para o ambiente</p>
+                    <p>As usinas nucleares exigem um investimento inicial muito alto</p>
+                    <p>Risco a segurança da população</p>
+                </ul>
+                </div>
+            </div>
         </section>
 
         <section id="Energia Hidrelétrica" class="conteudo">
-            <h4>Energia Hidrelétrica</h4>
-            <ul>
-                <p>Utiliza a energia hidráulica de um curso de água para produzir eletricidade</p>
-                <p>É uma energia renovável e limpa</p>
-                <p>Infelizmente, impacta na vida das populações próximas e na biodiversiade local.</p>
-                <p>É a principal fonte de energia utilizada no Brasil</p>
-            </ul>
-
-            <a href="https://youtu.be/tmHDVsutyzA?si=TRrkhGPz5ytPOYeZ" class="cta-button" target="_blank">Como funciona uma usina hidrelétrica? <i class="fa-solid fa-arrow-up-right-from-square" style="color: var(--text-color);"></i></a>
+          <div class="container-l">
+            <img src="img/barragem-de-uma-usina-hidreletrica.webp" alt="imagem hidreletrica" class="imagem-l">
+            <div class="text-l">
+              <h4>Energia Hidrelétrica</h4>
+              <ul>
+                  <p>Utiliza a energia hidráulica de um curso de água para produzir eletricidade</p>
+                  <p>É uma energia renovável e limpa</p>
+                  <p>Infelizmente, impacta na vida das populações próximas e na biodiversiade local.</p>
+                  <p>É a principal fonte de energia utilizada no Brasil</p>
+              </ul>
+              <a href="https://youtu.be/tmHDVsutyzA?si=TRrkhGPz5ytPOYeZ" class="cta-button" target="_blank">Como funciona uma usina hidrelétrica? <i class="fa-solid fa-arrow-up-right-from-square" style="color: var(--text-color);"></i></a>
+            </div>
+          </div>
         </section>
 
         <section id="Energia Solar" class="conteudo">
-            <h4>Energia Solar</h4>
-            <ul>
-                <p>A luz do sol é uma fonte de energia abundante e inesgotável</p>
-                <p>A energia solar não emite gases de efeito estufa durante a geração</p>
-                <p>O sistema de energia solar não gera ruídos</p>
-                <p>A geração de energia solar depende da luz solar, o que pode reduzir a produção em dias nublados ou chuvosos</p>
-            </ul>
+            <div class="container-r">
+                <img src="img/energia-solar-620x620.jpeg" alt="imagem hidreletrica" class="imagem-r">
+                <div class="text-r">
+                <h4>Energia Solar</h4>
+                <ul>
+                    <p>A luz do sol é uma fonte de energia abundante e inesgotável</p>
+                    <p>A energia solar não emite gases de efeito estufa durante a geração</p>
+                    <p>O sistema de energia solar não gera ruídos</p>
+                    <p>A geração de energia solar depende da luz solar, o que pode reduzir a produção em dias nublados ou chuvosos</p>
+                </ul>
+                </div>
+            </div>
         </section>
 
         <section id="Energia Eólica" class="conteudo">
-            <h4>Energia Eólica</h4>
-            <ul>
-                <p>A energia eólica é renovável e não polui no processo de geração</p>
-                <p>Utiliza um recurso natural abundante e inesgotável, o vento</p>
-                <p>Depende da disponibilidade e da força do vento</p>
-                <p>A energia eólica preisa de muito espaço para ser instalada, e pode interferir na biodiversidade local, além de gerar muitos ruídos.</p>
-            </ul>
+            <div class="container-l">
+                <img src="img/AEROGERADOR-BLOG.png" alt="imagem hidreletrica" class="imagem-l">
+                <div class="text-l">  
+                <h4>Energia Eólica</h4>
+                <ul>
+                    <p>A energia eólica é renovável e não polui no processo de geração</p>
+                    <p>Utiliza um recurso natural abundante e inesgotável, o vento</p>
+                    <p>Depende da disponibilidade e da força do vento</p>
+                    <p>A energia eólica preisa de muito espaço para ser instalada, e pode interferir na biodiversidade local, além de gerar muitos ruídos.</p>
+                </ul>
+                </div>
+            </div>
         </section>
 
         <section id="Energia Biomassa" class="conteudo">
-            <h4>Energia Biomassa</h4>
-            <ul>
-                <p>Reaproveita de resíduos agrícolas, industriais e urbanos, reduzindo a geração de lixo</p>
-                <p>Possuí um custo mais baixo em comparação com combustíveis fósseis</p>
-                <p>Contribuí para a redução do efeito estufa e do aquecimento global. </p>
-            </ul>
-        </section>
-
-        <section id="Energia Pisos Pavagen" class="conteudo">
-            <div class="col-md-4">
-                <div class="card">
-                    <div class="card-body">
-                        <h5 class="card-title">Energia Pisos Pavagen</h5>
-                        <p class="card-text">É um piso que transforma uma simples caminhada em energia elétrica,Em lugares com grande fluxo de pessoas cirulando, pode ser usado para gerar energia limpa,Infelizmente essa tecnologia ainda esta sendo testada, e sua instalação possui um alto custo</p>
-                        <button type="button" class="btn btn-primary">Assista a apresentação aqui</button>
-                    </div>
+            <div class="container-r">
+                <img src="img/impactos-ambientais.jpg" alt="imagem hidreletrica" class="imagem-r">
+                <div class="text-r">
+                <h4>Energia Biomassa</h4>
+                <ul>
+                    <p>Reaproveita de resíduos agrícolas, industriais e urbanos, reduzindo a geração de lixo</p>
+                    <p>Possuí um custo mais baixo em comparação com combustíveis fósseis</p>
+                    <p>Contribuí para a redução do efeito estufa e do aquecimento global. </p>
+                </ul>
                 </div>
-             </div>
+            </div>
         </section>
-
-    </main>
+       
 
     <footer>
         <a href="https://www.portalsolar.com.br/fontes-de-energia" class="cta-footer">Saiba mais sobre!</a>

@@ -23,9 +23,22 @@ body {
 }
 
 
+form {
+   color: rgb(255, 255, 255);
+   text-align: center;
+   margin-right: 8%;
+}
+
+.class {
+   margin-left: 8%;
+   margin-right: 8%;
+}
+
 h1 {
    color: rgb(255, 255, 255);
    text-align: center;
+   font-size: 200%;
+   margin-left: 8%;
 }
 
 h3 {
@@ -39,7 +52,7 @@ h4 {
 
 h2 {
     margin-left: 8%;
-    padding-top: 1rem;
+    margin-top: 5%;
 }
 
 p {
@@ -54,5 +67,46 @@ a {
 
 img {
     max-width: 70%;
-    margin: 8%;
+    margin-top: 8%;
+    margin-left: 8%;
+}
+
+.container-l {
+    width: 100%;
+    display: flex; 
+}
+
+.imagem-l {
+    width: 30%; 
+    float: left; 
+    margin-right: 10px; 
+}
+
+.text-l {
+    width: 70%;
+    display: inline-block; 
+    float: right;
+    margin-top: 10%;
+}
+.container-r {
+    width: 100%;
+    display: flex; 
+}
+
+.imagem-r {
+    width: 30%; 
+    float: right; 
+    margin-right: 10px; 
+}
+
+.text-r {
+    width: 70%;
+    display: inline-block; 
+    float: right;
+    margin-top: 10%;
+}
+
+footer {
+    text-align: center;
+    margin-top: 10%;
 }
